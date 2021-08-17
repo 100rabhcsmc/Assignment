@@ -18,7 +18,7 @@ const Email = (props) => {
         url: `https://run.mocky.io/v3/386baee0-3694-4384-b69a-8e9798aac3a2?Email=${email}`,
       })
         .then((res) => {
-          console.log('CL ~ file: Email.js ~ line 17 ~ .then ~ res', res);
+          console.log(res);
           console.log(email);
 
           history.push(`/password`);
